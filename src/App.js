@@ -4,7 +4,7 @@ import axios from 'axios'
 
 function App() {
 
-  const [username, setUsername] = useState('')
+  const [username, setUsername] = useState('');
   const [loading, setLoading] = useState(false)
   const [repos, setRepos] = useState([])
   const [details, setDetails] = useState({})
