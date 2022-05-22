@@ -16,7 +16,7 @@ function App() {
   }, [username])
 
   function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
     searchRepos()
   }
 
