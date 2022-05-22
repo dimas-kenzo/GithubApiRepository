@@ -1,7 +1,7 @@
 function RepoDetails({ details, loading }) {
     if (loading) {
         return (
-            <h4>Loading...</h4>
+            <h4>Loading..</h4>
         )
     }
     return (
